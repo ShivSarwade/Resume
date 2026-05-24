@@ -1,0 +1,60 @@
+# ==============================================================================
+# LaTeX Gitignore - Keep ONLY source files (.tex) and compiled output (.pdf)
+# ==============================================================================
+
+# Core LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+*.lof
+*.lot
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Bibliography files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Indexing files
+*.idx
+*.ind
+*.ilg
+
+# PythonTeX / SageTeX files
+*.pytxcode
+*.sagetex.sout
+*.sagetex.py
+*.sagetex.use
+
+# Glossaries files
+*.glo
+*.glg
+*.gls
+*.ist
+
+# Beamer files
+*.nav
+*.snm
+*.vrb
+
+# Other LaTeX-related intermediate files
+*.dvi
+*.xdv
+*.ps
+*.pdfsync
+
+# OS/System files
+.DS_Store
+Thumbs.db
+Desktop.ini
