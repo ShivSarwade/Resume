@@ -1,0 +1,20 @@
+Our Purpose
+
+Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.
+
+Title and Summary
+
+Software Engineer II
+Job Overview: Provides support of applications software through programming, analysis, design, development and delivery of software solutions. Researches alternative technical solutions for changing business needs. Major Accountabilities: •Responsible for programming, testing, implementation, documentation, maintenance and support of systems application software in adherence with MasterCard standards, processes and best practices. •Develop high quality, secure, scalable software solutions based on technical requirements specifications and design artifacts within expected time and budget. •Research, create and evaluate technical solution alternatives for the business needs current and upcoming technologies and frameworks. •Perform feasibility studies, logic designs, detailed systems flowcharting, analysis of input-output flow, cost and time analysis. •Work with project team to meet scheduled due dates, while identifying emerging issues and recommending solutions for problems and independently perform assigned tasks, perform production incident management. Participate in on-call pager support rotation. •Document software programs per Software Development Best Practices. Follow MasterCard Quality Assurance and Quality Control processes. •Assist Senior Team members in modification of the documentation templates per the needs of the project and technology. •Contribute ideas to help ensure that required standards and processes are in place and actively look for opportunities to enhance standards and improve process efficiency. •Support collection and reporting of project and software metrics. Education: •Bachelor's degree in Information Technology, Computer Science or Management Information Systems or equivalent work experience. Knowledge / Experience: •Thorough knowledge and understanding of Software Engineering Concepts and Methodologies is required. •Must demonstrate MC Core Competencies. •1 to 3 years of experience in software engineering field. Skills/ Abilities: •Must be high-energy, detail-oriented and proactive with the ability to function under pressure in an independent environment. •Must provide the necessary skills to have a high degree of initiative and self-motivation with a willingness and ability to learn and take on challenging opportunities. •Strong communication skills -- both verbal and written – with strong relationship, collaborative skills and organizational skills. •Ability to work as a member of matrix based diverse and geographically distributed project team.
+Corporate Security Responsibility
+
+
+All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must:
+
+Abide by Mastercard’s security policies and practices;
+
+Ensure the confidentiality and integrity of the information being accessed;
+
+Report any suspected information security violation or breach, and
+
+Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.
