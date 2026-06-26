@@ -1,0 +1,91 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- TIMES NEW ROMAN & ATS ENCODING ---
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+\usepackage[a4paper,margin=0.40in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+% Clean, tight spacing for section headings
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{4pt}
+
+% Globally reduce itemize vertical heights (pointers height reduction)
+\setlist[itemize]{
+    noitemsep,
+    topsep=1pt,
+    parsep=0pt,
+    partopsep=0pt,
+    itemsep=1.5pt
+}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+% HEADER
+\begin{minipage}[t]{0.75\textwidth}
+    {\LARGE \textbf{SHIV SANTOSH SARWADE}}\\
+    Software Development Engineer\\[6pt]
+    \textbf{Phone:} +91-7620876612\\
+    \textbf{Email:} \href{mailto:shiv.s.sarwade@gmail.com}{shiv.s.sarwade@gmail.com}\\[4pt]
+    \textbf{Links \& Profiles:}\\
+    \href{https://linkedin.com/in/shiv-sarwade}{linkedin.com/in/shiv-sarwade} (LinkedIn)\\
+    \href{https://github.com/ShivSarwade}{github.com/ShivSarwade} (GitHub)\\
+    \href{https://leetcode.com/u/shivsarwade/}{leetcode.com/u/shivsarwade} (LeetCode / Coding Profile)
+\end{minipage}%
+\begin{minipage}[t]{0.25\textwidth}
+    \vspace{-10pt}
+    \raggedleft
+    \framebox[3.5cm]{\rule{0pt}{4.5cm} \textit{Passport Photo}}
+\end{minipage}
+
+\vspace{10pt}
+
+\section*{Summary}
+Software Development Engineer with hands-on experience building scalable distributed systems, optimizing API latency, and designing robust full-stack workflows. Proficient in Data Structures \& Algorithms and system architecture.
+
+\section*{Technical Skills}
+\textbf{Skilled} (Used in multi-element projects, aware of practical issues):\\[2pt]
+Node.js, Express.js, React.js, RESTful APIs, JavaScript (ES6+), MongoDB, PostgreSQL 
+
+\vspace{4pt}
+\textbf{Intermediate} (Hands-on practical work):\\[2pt]
+Python, Java, SQL, Next.js, AWS, Docker, Git, Linux 
+
+\vspace{4pt}
+\textbf{Basic} (Know the technology, but haven't gone into details):\\[2pt]
+Redis, Nginx
+
+\section*{Projects}
+
+\textbf{Griffion -- Identity \& Authentication Service}\\
+\textbf{Synopsis:} Developed a modular authentication microservice serving as the core identity provider for internal tools. My personal contribution involved architecting the backend systems, building secure REST APIs, designing database schemas, and setting up protected frontend routing using \textbf{Node.js, React.js, MongoDB, Redis, and JWT}. \textbf{Challenge \& Independent Research:} A major challenge was high authorization latency under concurrent requests. Through independent research into database optimization and caching layers, I implemented efficient indexing and Redis caching strategies, successfully reducing query overhead and authorization latency by 30\%.
+
+\vspace{6pt}
+
+\textbf{JobJet -- Full-Stack Job Portal}\\
+\textbf{Synopsis:} Engineered a scalable job-matching platform facilitating seamless recruiter-candidate interactions. I solely developed the backend infrastructure for application tracking, secure resume uploads, and user profile management, along with building a responsive component-driven frontend using \textbf{Python, React.js, Node.js, PostgreSQL, and Tailwind CSS}. \textbf{Challenge \& Independent Research:} A significant challenge was matching candidates to jobs from large datasets efficiently. I solved this by independently researching and implementing an optimized string search and sorting algorithm in Python to handle the data load effectively.
+
+\vspace{6pt}
+
+\textbf{TICKETIFY -- Event Management System}\\
+\textbf{Synopsis:} Engineered a cross-platform event application backend supporting high-concurrency ticket booking and real-time attendee synchronization. My contribution focused on creating highly available REST APIs and implementing secure QR-based ticket validation for reliable check-ins using \textbf{React Native, Node.js, and MongoDB}. \textbf{Challenge \& Independent Research:} I faced challenges handling high concurrency under heavy load during ticket sales. I addressed this by independently researching distributed system patterns and implementing fault-tolerant asynchronous services to prevent system bottlenecks.
+
+\section*{Experience}
+\textbf{Software Developer} $|$ \textit{Sitramix, Pune} \hfill May 2025 -- Present\\
+Architected scalable full-stack features, optimized RESTful API endpoints reducing response time by 40\%, and implemented robust JWT/RBAC security. Managed AWS EC2 deployments and resolved production bottlenecks to ensure 99.9\% uptime.
+
+\section*{Education}
+\textbf{Master of Computer Applications (MCA)} $|$ \textit{Savitribai Phule Pune University} \hfill Expected: June 2027 \quad \textbf{CGPA: 8.96}
+
+\vspace{4pt} 
+
+\textbf{Bachelor of Business Administration in Computer Applications (BCA)} $|$ \textit{SPPU} \hfill Graduated: 2025 \quad \textbf{CGPA: 9.60 / 10}
+
+\end{document}
