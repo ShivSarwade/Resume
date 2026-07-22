@@ -2,6 +2,12 @@
 
 This repository contains my resume maintained in **LaTeX** with role-specific versions.
 
+## Search-friendly profile keywords
+
+Shiv Santosh Sarwade is a **Pune-based Next.js Developer**, **React.js Developer**, **Frontend Developer**, and **Full-Stack Web Developer**.  
+Core stack includes **Next.js, React.js, Node.js, Express.js, PostgreSQL, MongoDB, Tailwind CSS, AWS, and REST APIs**.  
+Open to roles in **Web Development, Application Development, Frontend Engineering, and Software Engineering**.
+
 ## What’s inside
 
 - `Software Engineer/resume.tex` → Software Engineer version
