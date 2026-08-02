@@ -1,0 +1,106 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- TIMES NEW ROMAN & ATS ENCODING ---
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+\usepackage[a4paper,margin=0.30in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+% Clean, tight spacing for section headings
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+% Globally reduce itemize vertical heights
+\setlist[itemize]{
+    noitemsep,
+    topsep=1pt,
+    parsep=0pt,
+    partopsep=0pt,
+    itemsep=1.5pt
+}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \textbf{SHIV SANTOSH SARWADE}}\\
+    Software Engineer \\[4pt]
+    Pune, MH \quad
+    +91-7620876612 \quad
+    \href{mailto:shiv.s.sarwade@gmail.com}{shiv.s.sarwade@gmail.com} \quad
+    \href{https://www.shivsarwade.space}{Portfolio} \quad
+    \href{https://linkedin.com/in/shiv-sarwade}{LinkedIn} \quad
+    \href{https://github.com/ShivSarwade}{GitHub}
+\end{center}
+
+\section*{Experience}
+
+\textbf{Software Developer} \hfill May 2025 -- June 2026\\
+Sitramix, Pune\\
+\textit{Node.js, React.js, Next.js, PostgreSQL, MongoDB, Redis, LangChain, OpenAI, Gemini, Docker, AWS}
+
+\begin{itemize}[leftmargin=*]
+    \item Developed three production platforms including an AI-powered design generation system, Techvruk (professional networking platform), and a multi-tenant CA blogging platform serving customer-specific subdomains.
+    \item Built AI workflows using LangChain, OpenAI, and Gemini to automate metadata generation, content creation, image generation, OCR processing, resume evaluation, and Retrieval-Augmented Generation (RAG) pipelines.
+    \item Designed scalable backend architectures by introducing microservices, Redis caching, asynchronous job processing, and database optimization to improve application performance and maintainability.
+    \item Developed secure REST APIs supporting authentication, payment integration, role-based access control, content management, and business workflows across multiple applications.
+    \item Implemented multi-tenant data isolation and routing to ensure customer-specific experiences across shared infrastructure.
+    \item Deployed and maintained production applications on private Linux servers, AWS, Vercel, and Docker, managing releases, environment configuration, and monitoring of application health.
+    \item Collaborated in Agile teams using Jira and Git-based workflows, participated in code reviews, and wrote API documentation to support team-wide development.
+\end{itemize}
+
+
+\section*{Skills}
+
+\textbf{Languages \& Core CS:} JavaScript (ES6+), Python, Java, SQL, Data Structures \& Algorithms, OOP, System Design\\[2pt]
+\textbf{Backend Engineering:} Node.js, Express.js, REST APIs, JWT Authentication, Refresh Token Rotation, RBAC, Microservices\\[2pt]
+\textbf{Frontend Technologies:} React.js, Next.js, Redux Toolkit, Tailwind CSS, HTML5, CSS3\\[2pt]
+\textbf{Databases \& Cloud:} PostgreSQL, MongoDB, Redis, AWS (EC2, S3)\\[2pt]
+\textbf{AI \& Automation:} LangChain, OpenAI, Gemini, RAG Pipelines, OCR Workflows\\[2pt]
+\textbf{Tools \& Methodologies:} Git, Linux, Docker, Postman, CI/CD, Jira, Agile/Scrum, SDLC, Debugging, Secure Coding Practices
+
+\section*{Projects}
+
+\textbf{DesignEra -- Production Client Project | Backend Engineer} \hfill Node.js, FastAPI, Python, Next.js, PostgreSQL, Redis, AWS, OpenAI, GIMP
+
+\begin{itemize}[leftmargin=*]
+    \item Designed and developed a microservice-based backend architecture for a production design asset automation platform, enabling scalable image processing and AI-powered workflow orchestration.
+    \item Built RESTful APIs for design uploads, asset management, variant generation, approvals, and progress tracking using Node.js, FastAPI, and PostgreSQL.
+    \item Engineered distributed asynchronous workflows using Redis-backed background workers to automate image rendering, metadata generation, and AI-assisted processing at scale.
+    \item Integrated OpenAI, GIMP, and AWS S3 to automate design generation, metadata creation, secure asset storage, and export pipelines.
+    \item Implemented Redis caching, database optimization, and scalable media processing to improve application performance and support concurrent user workloads.
+    \item Collaborated with a cross-functional engineering team to deliver a production-ready platform used by client design teams.
+\end{itemize}
+
+\textbf{Techvruk -- Production Community Platform | Backend Engineer} \hfill Node.js, Next.js, PostgreSQL, Redis, Python, LangChain, OpenAI, AWS
+
+\begin{itemize}[leftmargin=*]
+    \item Developed backend services and REST APIs for a production engineering community platform supporting authentication, communities, blogs, mentorship, events, and content management.
+    \item Designed scalable microservice-based backend modules using Node.js, PostgreSQL, Redis, and asynchronous background processing to improve system scalability and maintainability.
+    \item Built AI-powered resume evaluation and Retrieval-Augmented Generation (RAG) workflows using LangChain, OpenAI, and vector search to deliver personalized resume analysis.
+    \item Implemented secure authentication, JWT, RBAC, and multi-tenant backend architecture while collaborating with a team of three engineers.
+    \item Optimized database queries, Redis caching, and API performance to support concurrent users and production workloads.
+\end{itemize}
+
+\section*{Awards, Activities \& Certifications}
+
+\begin{itemize}[leftmargin=*]
+    \item Played a key leadership role in hosting the international contest ICNIO 2024 for Garware College of Commerce.
+    \item Secured 1st Rank in college during Bachelor's degree (BBA-CA) with a CGPA of 9.60/10.
+    \item Completed Infosys Springboard Java Foundation Certification.
+\end{itemize}
+
+\section*{Education}
+
+\textbf{Master of Computer Applications (MCA)} | SPPU | CGPA: 8.96 / 10 \hfill Expected: May 2027
+
+\vspace{4pt}
+
+\textbf{Bachelor of Business Administration in Computer Applications (BBA-CA)} | SPPU | CGPA: 9.60 / 10 \hfill Graduated: 2025 
+
+\end{document}
