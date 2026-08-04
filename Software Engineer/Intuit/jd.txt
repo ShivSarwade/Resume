@@ -1,0 +1,67 @@
+Intern, Software Engineering
+Category Software Engineering, Internship
+Location Bangalore, India
+Job ID 22943
+
+Company Overview
+Intuit is the global financial technology platform that powers prosperity for the people and communities we serve. With approximately 100 million customers worldwide using products such as TurboTax, Credit Karma, QuickBooks, and Mailchimp, we believe that everyone should have the opportunity to prosper. We never stop working to find new, innovative ways to make that possible.
+
+Job Overview
+Software Engineer Intern - Summer 2027
+
+**This position is intended for students in a degree-seeking program, to which they will return at the end of the summer internship in 2027. If you do not meet this minimum criteria, please revisit our careers site for other opportunities.**
+
+At Intuit, we want to invest in the next generation of tech entrepreneurs by bringing them into our organization early and encouraging them to bring their talents back to Intuit after they graduate. Our internship program is focused on identifying these high-potential university students and equipping them with the tools they need to succeed in the tech industry.
+
+During Intuit’s summer internship program, our interns will have the opportunity to get first-hand experience in software engineering practices - learning about agile development, industry best practices, taking part in design discussions and code reviews. Our interns will be exposed to shift-left paradigms in devops, quality engineering and performance engineering. They will be an integral part of our development teams and get to interact with our senior leaders and learn directly from the top talent at Intuit. During Intuit's summer internship program, interns will interact with our senior leaders, learn directly from our business partners, and leverage our unique business practices all while taking on rigorous assignments.
+
+Through our summer internship program, university students gain the confidence to make meaningful work contributions that enable business growth with our products, customers, and internal processes. Our interns have opportunities to work in one of the following areas:
+
+Software Engineer Intern: Full Stack/Front-End/Back-End/Security/DevOps/Mobile/Data Engineering
+
+
+Responsibilities
+
+What You’ll Do:
+
+Assist in the design, development, and testing of software applications and systems.
+
+Contribute to code reviews and ensure adherence to coding standards.
+
+Participate in debugging and resolving software defects.
+
+Collaborate with team members to understand project requirements and deliver solutions.
+
+Support the deployment and maintenance of software
+
+
+Qualifications
+
+Qualifications:
+
+ 
+  Must be currently enrolled in a degree seeking program 
+
+ 
+  BE / BTech or Integrated ME / MTech in Computer Science or a related stream 
+
+ 
+  Strong software engineering skills 
+
+ 
+  Solid understanding of object oriented design and programming languages 
+
+ 
+  Experience with at least one of the following: Java, C#, C++ 
+
+ 
+  Front end web development skills preferred (D/HTML, JavaScript, XML, Flex, CSS) 
+
+ 
+  Familiarity or the ability to learn current trends and best practices in front-end 
+
+ architecture, including performance, accessibility and usability
+
+
+Footer
+Intuit provides a competitive compensation package with a strong pay for performance rewards approach. This position may be eligible for a cash bonus, equity rewards and benefits, in accordance with our applicable plans and programs (see more about our compensation and benefits at Intuit®: Careers | Benefits). Pay offered is based on factors such as job-related knowledge, skills, experience, and work location. To drive ongoing fair pay for employees, Intuit conducts regular comparisons across categories of ethnicity and gender.

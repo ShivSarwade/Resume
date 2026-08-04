@@ -1,0 +1,111 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- TIMES NEW ROMAN & ATS ENCODING ---
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+\usepackage[a4paper,margin=0.30in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+% Clean, tight spacing for section headings
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+% Globally reduce itemize vertical heights
+\setlist[itemize]{
+    noitemsep,
+    topsep=1pt,
+    parsep=0pt,
+    partopsep=0pt,
+    itemsep=1.5pt
+}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \textbf{SHIV SANTOSH SARWADE}}\\
+    Software Engineer \\[4pt]
+    +91-7620876612 \quad
+    \href{mailto:shiv.s.sarwade@gmail.com}{shiv.s.sarwade@gmail.com} \quad
+    \href{https://www.shivsarwade.space}{Portfolio} \quad
+    \href{https://linkedin.com/in/shiv-sarwade}{LinkedIn} \quad
+    \href{https://github.com/ShivSarwade}{GitHub}
+\end{center}
+
+\section*{Summary}
+
+Software Engineer with hands-on experience building production-ready full-stack applications and backend platforms using Node.js, Express.js, React.js, PostgreSQL, and MongoDB. Skilled in REST API development, authentication systems, multi-tenant architectures, database performance tuning, and cloud deployments with Docker and AWS. Strong foundation in data structures, algorithms, and system design, with experience owning features across the full software development lifecycle in agile engineering teams.
+
+\section*{Skills}
+
+\textbf{Languages \& Core CS:} JavaScript (ES6+), Python, Java, SQL, Data Structures \& Algorithms, OOP, System Design\\[2pt]
+\textbf{Backend Engineering:} Node.js, Express.js, REST APIs, JWT Authentication, Refresh Token Rotation, RBAC, Microservices\\[2pt]
+\textbf{Frontend Technologies:} React.js, Next.js, Redux Toolkit, Tailwind CSS, HTML5, CSS3\\[2pt]
+\textbf{Databases \& Cloud:} PostgreSQL, MongoDB, Redis, AWS (EC2, S3)\\[2pt]
+\textbf{AI \& Automation:} LangChain, OpenAI, Gemini, RAG Pipelines, OCR Workflows\\[2pt]
+\textbf{Tools \& Methodologies:} Git, Linux, Docker, Postman, CI/CD, Jira, Agile/Scrum, SDLC, Debugging, Secure Coding Practices
+
+\section*{Experience}
+
+\textbf{Software Developer} \hfill May 2025 -- June 2026\\
+Sitramix, Pune\\
+\textit{Node.js, React.js, Next.js, PostgreSQL, MongoDB, Redis, LangChain, OpenAI, Gemini, Docker, AWS}
+
+\begin{itemize}[leftmargin=*]
+    \item Developed three production platforms including an AI-powered design generation system, Techvruk (professional networking platform), and a multi-tenant CA blogging platform serving customer-specific subdomains.
+    \item Built AI workflows using LangChain, OpenAI, and Gemini to automate metadata generation, content creation, image generation, OCR processing, resume evaluation, and Retrieval-Augmented Generation (RAG) pipelines.
+    \item Designed scalable backend architectures by introducing microservices, Redis caching, asynchronous job processing, and database optimization to improve application performance and maintainability.
+    \item Developed secure REST APIs supporting authentication, payment integration, role-based access control, content management, and business workflows across multiple applications.
+    \item Implemented multi-tenant data isolation and routing to ensure customer-specific experiences across shared infrastructure.
+    \item Deployed and maintained production applications on private Linux servers, AWS, Vercel, and Docker, managing releases, environment configuration, and monitoring of application health.
+    \item Collaborated in Agile teams using Jira and Git-based workflows, participated in code reviews, and wrote API documentation to support team-wide development.
+\end{itemize}
+
+\section*{Projects}
+
+\textbf{\href{https://github.com/ShivSarwade/Griffion}{Griffion} -- Identity \& Authentication Service} \hfill Node.js, Next.js, PostgreSQL, Prisma
+
+\begin{itemize}[leftmargin=*]
+    \item Built a configurable full-stack starter kit that generates production-ready frontend and backend applications based on developer-selected configurations.
+    \item Implemented configurable authentication using Prisma ORM with PostgreSQL, MySQL, and MongoDB, supporting email/username login, JWT, refresh tokens, RBAC, email verification, password reset, and TOTP-based MFA.
+    \item Designed a multi-tenant architecture that provisions tenant-specific authentication, routing, pages, and backend modules from a single configuration.
+    \item Reduced project bootstrap time by enabling developers to generate fully configured, authentication-enabled applications in under 5 minutes.
+\end{itemize}
+
+\textbf{\href{https://github.com/ShivSarwade/JobJet}{JobJet} -- Full-Stack Job Portal} \hfill Node.js, React.js, PostgreSQL
+
+\begin{itemize}[leftmargin=*]
+    \item Built a multi-tenant job portal enabling recruiters and candidates to manage job postings, applications, profiles, and hiring workflows with role-based access control.
+    \item Developed REST APIs, PostgreSQL schemas, and an administrative dashboard supporting job management, ID verification, reporting, and tenant-specific data isolation.
+    \item Implemented search, filtering, sorting, and pagination to enable efficient retrieval of tenant-specific job and application data.
+\end{itemize}
+
+
+
+\section*{Awards \& Certifications}
+
+\begin{itemize}[leftmargin=*]
+    \item Secured 1st Rank in college during Bachelor's degree (BBA-CA) with a CGPA of 9.60/10.
+    \item Completed Infosys Springboard Java Foundation Certification.
+\end{itemize}
+
+\section*{Education}
+
+\textbf{Master of Computer Applications (MCA)} | SPPU | CGPA: 8.96 / 10 \hfill Expected: May 2027
+
+\vspace{4pt}
+
+\textbf{Bachelor of Business Administration in Computer Applications (BBA-CA)} | SPPU | CGPA: 9.60 / 10 \hfill Graduated: 2025 
+
+\vspace{4pt}
+\textbf{Higher Secondary Certificate (HSC)}, A.S.D.B. Dadawala Junior College | 87.50\% \hfill 2022 
+ 
+\vspace{4pt}
+\textbf{Secondary School Certificate (SSC)}, V.P.S. Sheth Hiralal Saraf Prashala | 88.20\% \hfill 2020
+
+\end{document}
